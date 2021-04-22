@@ -7,7 +7,12 @@ import { MatIconModule } from '@angular/material/icon';
 
 
 import { AppComponent } from './app.component';
-import { LoginModule, LoginRoutingModule } from './autenticacao';
+import { 
+  LoginModule,
+  LoginRoutingModule,
+  CadastroPjModule,
+  CadastroPjRoutingModule
+} from './autenticacao';
 import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
@@ -20,8 +25,10 @@ import { AppRoutingModule } from './app-routing.module';
     MatToolbarModule,
     MatIconModule,
     LoginModule,
-    LoginRoutingModule,
-
+    LoginRoutingModule,    
+    CadastroPjModule,
+    CadastroPjRoutingModule,
+    
     AppRoutingModule
   ],
   providers: [],
