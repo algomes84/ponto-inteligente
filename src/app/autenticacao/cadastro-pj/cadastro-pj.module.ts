@@ -17,7 +17,7 @@ import {
 } from './components';
 import { CadastrarPjService } from './services';
 
-import { SharedModule } from '../../shared';
+import { SharedModule } from '../../shared/shared.module';
 
 @NgModule({
   declarations: [

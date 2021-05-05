@@ -15,6 +15,12 @@ import {
   CadastroPfModule,
   CadastroPfRoutingModule
 } from './autenticacao';
+import { FuncionarioModule, FuncionarioRoutingModule } from './funcionario';
+import { 
+  AdminModule,
+  AdminRoutingModule
+ } from './admin';
+
 import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
@@ -33,6 +39,10 @@ import { AppRoutingModule } from './app-routing.module';
     CadastroPfModule,
     CadastroPfRoutingModule,
     FlexLayoutModule,
+    FuncionarioModule,
+    FuncionarioRoutingModule,
+    AdminModule,
+    AdminRoutingModule,
     
     AppRoutingModule
   ],
